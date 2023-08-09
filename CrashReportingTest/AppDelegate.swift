@@ -6,14 +6,31 @@
 //
 
 import UIKit
+import DatadogCore
+import DatadogRUM
+import DatadogLogs
+import DatadogTrace
+import DatadogCrashReporting
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+
+        Datadog.initialize(
+            with: Datadog.Configuration(
+                clientToken: "nothing to see here",
+                env: "tests",
+                service: "CrashReporting"
+            ),
+            trackingConsent: .granted
+        )
+        
+        RUM.enable(with: RUM.Configuration(applicationID: "nothing to see here"))
+        
+        CrashReporting.enable()
+        
         return true
     }
 

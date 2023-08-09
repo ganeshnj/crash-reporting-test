@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C1F5B380-0EBA-4312-9F3C-E19C4D5DEBE0"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C9A85FA7-29E1-40CC-A0D7-EB95B89D5337"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/CrashReportingTest-gejqnceshbbpjgcaplergphhozvx/SourcePackages/checkouts/dd-sdk-ios/DatadogCore/Sources/Core/Upload/HTTPClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "send(request:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C9A85FA7-29E1-40CC-A0D7-EB95B89D5337 - 51076751d966d380"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DatadogCore.HTTPClient.send(request: Foundation.URLRequest, completion: (Swift.Result&lt;__C.NSHTTPURLResponse, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "CrashReportingTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ganesh.jangir/Library/Developer/Xcode/DerivedData/CrashReportingTest-gejqnceshbbpjgcaplergphhozvx/SourcePackages/checkouts/dd-sdk-ios/DatadogCore/Sources/Core/Upload/HTTPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "C9A85FA7-29E1-40CC-A0D7-EB95B89D5337 - 541a80d26e378b14"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in DatadogCore.HTTPClient.send(request: Foundation.URLRequest, completion: (Swift.Result&lt;__C.NSHTTPURLResponse, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "CrashReportingTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ganesh.jangir/Library/Developer/Xcode/DerivedData/CrashReportingTest-gejqnceshbbpjgcaplergphhozvx/SourcePackages/checkouts/dd-sdk-ios/DatadogCore/Sources/Core/Upload/HTTPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
